@@ -1,0 +1,40 @@
+/* Cascading Style Sheet  */
+/* 선택자(selector) = html 태그를 선택하는 것 */
+
+
+#header-center {
+margin: 0 auto;
+width: 1080px;
+}
+
+
+/* CSS 문법
+
+여러 개에 태그에 동시에 적용하고 싶다면 , 를 이용한다. 
+
+div#header-center, div#zerocho {
+margin: 0 auto;
+width: 1080px;
+}
+
+div는 너무 많이 쓰이니까 div를 생략하고 #header-center 로만 적어도 된다. 
+하지만 div가 아닌 경우는 반드시 적어줘야한다. div만 생략가능함. 
+header는 생략 안된다.
+
+px은 상대적인 길이
+*/
+
+
+#header-search > h1{
+width : 280px;
+}
+
+
+/* 자식 태그는 > */
+
+/* #header-center h1 자손 선택 */
+
+#header-search h2 {
+    display: none;
+
+}
